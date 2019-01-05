@@ -4,6 +4,17 @@ body, html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+@media only screen {
+    .bgimg {
+        background-attachment:scroll;
+    }
+
+    .midimg {
+        background-attachment:scroll;
+    }
+}
+
+
 /* Create a Parallax Effect */
 .bgimg {
     height:115%;
