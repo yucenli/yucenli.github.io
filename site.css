@@ -4,22 +4,19 @@ body, html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-@media (max-width:1000px){
-    .projimg{
-        margin-left: auto;
-        margin-right:auto;
-    }
-}
-
 /* Create a Parallax Effect */
 .bgimg {
     height:115%;
   background-image: url('large/narrows.jpg');
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /* Create a Parallax Effect */
@@ -29,6 +26,16 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .full {
