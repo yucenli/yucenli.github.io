@@ -1,5 +1,6 @@
 body, html {
-    height: 100%;
+    height: 100vh;
+    min-height: 100%;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -13,7 +14,6 @@ body, html {
         background-attachment:scroll;
     }
 }
-
 
 /* Create a Parallax Effect */
 .bgimg {
