@@ -15,7 +15,7 @@ body, html {
 /* Create a Parallax Effect */
 .bgimg {
     height:115%;
-  background-image: url('https://yucenli.github.io/large/narrows.jpg');
+  background-image: url('https://yucenli.github.io/large/narrows.JPG');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
