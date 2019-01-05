@@ -3,6 +3,8 @@ $( document ).ready(function() {
      var tests = document.getElementsByClassName('projimg');
      $.each(tests, function (i, l) {
         l.style.cssFloat = "none";
+        l.style.marginLeft = "auto";
+        l.style.marginRight = "auto";
      });
          var tests = document.getElementsByClassName('project');
          $.each(tests, function (i, l) {
@@ -33,6 +35,8 @@ $(window).resize(function() {
      var tests = document.getElementsByClassName('projimg');
      $.each(tests, function (i, l) {
         l.style.cssFloat = "none";
+        l.style.marginLeft = "auto";
+        l.style.marginRight = "auto";
      });
          var tests = document.getElementsByClassName('project');
          $.each(tests, function (i, l) {
