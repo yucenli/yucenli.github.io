@@ -3,16 +3,7 @@ body, html {
     min-height: 100%;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-@media only screen {
-    .bgimg {
-        background-attachment:scroll;
-    }
-
-    .midimg {
-        background-attachment:scroll;
-    }
+    background-color: white;
 }
 
 /* Create a Parallax Effect */
@@ -167,4 +158,59 @@ img {
 
 .projdesc a {
     color: #555;
+}
+
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+      .bgimg {
+          background-attachment:scroll!important;
+      }
+      .midimg {
+          background-attachment:scroll!important;
+      }
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .bgimg {
+          background-attachment:scroll!important;
+      }
+      .midimg {
+          background-attachment:scroll!important;
+      }
+}
+
+@media only screen and (max-width: 863px) {
+    .projimg {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project {
+        max-width: 450px;
+    }
+
+    .projtext {
+        margin-left: 0px;
+    }
+
+    .projhd {
+        text-align: center;
+    }
+
+    .projsub {
+        text-align: center;
+    }
+
+    .projdate {
+        text-align: center;
+    }
 }
